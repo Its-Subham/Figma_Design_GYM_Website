@@ -5,7 +5,7 @@ import { HiOutlinePlus, HiMinus } from "react-icons/hi2";
 const Navbar = () => {
   const [openSideMenu, setOpenSideMenu] = useState(false);
   return (
-    <div>
+    <div className="sticky top-0 z-50">
       <nav className="nav p-5 bg-primaryBg md:h-20 h-16 w-full border-b">
         <div className="mx-auto flex items-center justify-between">
           {/* Logo  */}
@@ -14,7 +14,7 @@ const Navbar = () => {
             <p className="text-primaryBlack font-bold ">PrimalTraining</p>
           </div>
 
-          {/* Nav Links */}
+          {/* Nav Links for Desktop*/}
           <div className="hidden md:flex gap-6 items-center ">
             <a href="/">HOME</a>
             <a href="about">ABOUT</a>
@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* Mobile Side Menu */}
       {openSideMenu && (
-        <div className="md:hidden bg-primaryWhite ">
+        <div className="md:hidden bg-primaryWhite absolute w-full">
           <div className="flex flex-col ">
             <div className="border-b h-16 p-5 flex items-center">
               <a
