@@ -28,7 +28,7 @@ const Home = () => {
             className="md:col-span-2 w-full h-full object-cover"
           />
 
-          <div className="px-5 md:pt-5 pb-6 md:pb-16 grid lg:gap-y-60">
+          <div className="px-5 md:pt-5 pb-6 md:pb-16 flex flex-col justify-between lg:gap-y-60">
             <h2 className="lg:text-5xl text-4xl font-bold">
               FOR THE COMMITTED
             </h2>
@@ -100,7 +100,7 @@ const Home = () => {
         </div>
 
         {/* Call to Action Section */}
-        <div className="bg-primaryPurple px-7 md:px-16 py-28 h-[480px]">
+        <div className="bg-primaryPurple px-7 md:px-16 py-28 h-[480px] border-b">
           <div className="h-full flex flex-col justify-center items-center gap-2">
             <p className="text-lg">WHAT WE BELIEVE IN</p>
             <h3 className="text-4xl md:text-6xl font-bold tracking-tight">JOIN THE PRIMAL TRIBE TODAY!</h3>

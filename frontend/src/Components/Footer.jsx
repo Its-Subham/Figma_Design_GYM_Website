@@ -3,7 +3,7 @@ import Image_Logo from "../assets/Logo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full overflow-x-hidden">
+    <footer className="w-full overflow-x-hidden bg-primaryBg">
       <div className="grid gap-16 md:gap-32 px-5 py-10">
         {/* Footer Header */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
