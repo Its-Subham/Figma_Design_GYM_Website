@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import Image_Hero from "../assets/Image_Hero.png";
 import Image_Guided from "../assets/Image_Guided.png";
 import Image_Discover from "../assets/Image_Discover.png";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -107,6 +108,7 @@ const Home = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
